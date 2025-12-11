@@ -2,7 +2,6 @@ from pyscipopt import Model
 import time
 import math
 import os
-from scip_extractor import extract_scip_features
 from constants import SOLVED_BY_SCIP, INFEASIBLE
 
 def simplify_with_scip(instance_path: str, output_path: str, time_limit: int = 10) -> Model | str:

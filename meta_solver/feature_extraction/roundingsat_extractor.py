@@ -24,7 +24,7 @@ def run_roundingsat(instance_path: str, time_limit: int = 10):
         instance_path,
     ]
     
-    result = subprocess.run(cmd, stdout=subprocess.PIPE, text=True, timeout=time_limit)
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, text=True, timeout=time_limit+5)
     output = result.stdout
     print("RS OUTPUT", output)
     
