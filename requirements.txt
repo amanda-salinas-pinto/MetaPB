@@ -1,0 +1,5 @@
+pyscipopt>=4.0.0
+numpy
+joblib
+scipy
+argparse
