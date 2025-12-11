@@ -40,6 +40,22 @@ cd assets/extractors/roundingsat_extractor/build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 ```
+## Models and Scalers
+
+The pretrained MetaPB models are too large to store on GitHub. You can download all models from the following Google Drive folder:
+
+[Download pretrained models](https://drive.google.com/drive/folders/1Cdyo-GjVzFTDvds0dF2GDitW0SHH5-yD?usp=sharing)
+
+After downloading, place the models inside:
+
+```bash
+assets/models/
+```
+
+and scalers inside:
+```bash
+assets/models/scalers
+```
 
 ## Running MetaPB
 
